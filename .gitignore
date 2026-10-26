@@ -1,0 +1,16 @@
+# 构建产物
+menubar/RazerLights
+menubar/RazerLights.app/
+*.o
+*.dSYM/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 本地标定结果（含个人键盘键位）
+keymap.json
+
+# 系统 / 临时
+.DS_Store
+*.log
